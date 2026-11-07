@@ -6,6 +6,9 @@ photograph that inspired it.
 
 ![Rainfern: a fern with water droplets, with the theme's palette](preview.png)
 
+<img width="1920" height="1080" alt="desktop" src="https://github.com/user-attachments/assets/c200335f-aeec-4267-9643-371e1971d726" />
+
+
 ## Install
 
 ```sh
