@@ -1,0 +1,135 @@
+# Rainfern, frosted: every shell surface is a pane of rain-blurred glass over the
+# fern wallpaper. Alphas are low enough for Hyprland's blur to read through, but
+# the text colours keep their contrast on the blurred backdrop.
+
+[bar]
+background = "#08120b"
+background-alpha = 0.34
+text = "#d5e2cc"
+active = "#c46a78"
+scale-with-font = true
+size-horizontal = 26
+size-vertical = 28
+
+[hyprland]
+active-border = "#6fae6b"
+active-border-foreground = "#9ecc78"
+
+[controls]
+normal-color = "#d5e2cc"
+normal-fill-alpha = 0.05
+normal-border = "#d5e2cc"
+normal-border-width = 1
+normal-border-alpha = 0.30
+hover-cursor-color = "#9ecc78"
+hover-cursor-fill-alpha = 0.10
+hover-cursor-border = "#9ecc78"
+hover-cursor-border-width = 1
+hover-cursor-border-alpha = 0.45
+focus-color = "#9ecc78"
+focus-fill-alpha = 0.12
+focus-border = "#9ecc78"
+focus-border-width = 1
+focus-border-alpha = 0.70
+selected-color = "#9ecc78"
+selected-fill-alpha = 0.18
+selected-border = "#9ecc78"
+selected-border-width = 0
+selected-border-alpha = 1.0
+pressed-fill-alpha = 0.22
+selection-fill-alpha = 0.32
+
+[spacing]
+scale = 1.0
+scale-with-font = true
+
+[font]
+base-size = 12
+
+[popups]
+background = "#08120b"
+background-alpha = 0.60
+text = "#d5e2cc"
+border = "hyprland.active-border"
+border-alpha = 0.80
+border-width = 1
+
+[tooltip]
+background = "#08120b"
+background-alpha = 0.78
+text = "#d5e2cc"
+border = "hyprland.active-border-foreground"
+border-alpha = 0.70
+
+[notifications]
+background = "#08120b"
+background-alpha = 0.66
+text = "#d5e2cc"
+border = "hyprland.active-border"
+border-alpha = 0.85
+border-width = 1
+countdown = "#9ecc78"
+
+[launcher]
+background = "#08120b"
+background-alpha = 0.56
+text = "#d5e2cc"
+border = "hyprland.active-border-foreground"
+border-alpha = 0.70
+scrim = "#08120b"
+scrim-alpha = 0.28
+selected-background = "#9ecc78"
+selected-background-alpha = 0.16
+selected-text = "#f1f7ea"
+selected-border = "#9ecc78"
+selected-border-alpha = 0.55
+
+[menu]
+background = "#08120b"
+background-alpha = 0.68
+text = "#d5e2cc"
+border = "hyprland.active-border-foreground"
+border-alpha = 0.70
+scrim = "#08120b"
+scrim-alpha = 0.28
+selected-background = "#9ecc78"
+selected-background-alpha = 0.16
+selected-text = "#f1f7ea"
+selected-border = "#9ecc78"
+selected-border-alpha = 0.55
+
+[polkit]
+background = "#08120b"
+background-alpha = 0.80
+text = "#d5e2cc"
+text-error = "#c46a78"
+border = "hyprland.active-border"
+border-error = "#c46a78"
+border-alpha = 0.85
+scrim = "#08120b"
+scrim-alpha = 0.45
+accent = "#9ecc78"
+
+# The lock screen stays nearly solid: glass is lovely until it shows what is
+# behind a locked session.
+[lock]
+background = "#08120b"
+background-alpha = 0.94
+text = "#d5e2cc"
+placeholder = "#647a68"
+text-error = "#c46a78"
+border = "hyprland.active-border"
+border-active = "#9ecc78"
+border-error = "#c46a78"
+border-alpha = 1.0
+selection = "#9ecc78"
+selection-alpha = 0.30
+
+[image-picker]
+scrim = "#08120b"
+scrim-alpha = 0.42
+text = "#d5e2cc"
+selected-border = "#9ecc78"
+selected-border-alpha = 1.0
+unselected-border = "#d5e2cc"
+unselected-border-alpha = 0.28

@@ -1,0 +1,45 @@
+# Rainfern: a rain-soaked fern in a dark teal wood, the way the photograph looks
+# when the light is behind you and everything else has gone to shade.
+# The surfaces are the near-black green of the undergrowth, text is the pale
+# mist on the fronds, the accent is the lit fern, and the cool notes are the
+# rain-water droplets and the wet leaves farther back. All taken from the image.
+mode = "dark"
+
+accent = "#9ecc78"
+selection = "#1b3323"
+selection_background = "#22402c"
+selection_foreground = "#e7f0de"
+muted = "#647a68"
+
+# Window edge: rain-wet fern green, going to deep undergrowth when unfocused.
+hyprland_active_border = "#6fae6b"
+hyprland_inactive_border = "#22402c"
+
+background = "#08120b"
+dark_background = "#050d07"
+darker_background = "#030906"
+lighter_background = "#122117"
+
+foreground = "#d5e2cc"
+dark_foreground = "#9db29f"
+light_foreground = "#e3edd9"
+bright_foreground = "#f1f7ea"
+
+# The photograph's own notes: the wine-red in the stems, the warm gold of a few
+# highlights, the fern green, the rain teal, the blue of the wet leaves, and the
+# faint mauve in the blurred background.
+red = "#c46a78"
+orange = "#c58b5a"
+yellow = "#d4c57e"
+green = "#7fb869"
+cyan = "#6fb0a0"
+blue = "#5e9cb0"
+magenta = "#b07fa8"
+brown = "#8a6247"
+
+bright_red = "#de8a96"
+bright_yellow = "#e8dba0"
+bright_green = "#a4d48c"
+bright_cyan = "#92cdbd"
+bright_blue = "#85bccb"
+bright_magenta = "#c99cc2"
