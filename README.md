@@ -13,7 +13,6 @@ photograph that inspired it.
 
 ```sh
 omarchy theme install https://github.com/wicky14/omarchy-rainfern-theme
-omarchy theme set rainfern
 ```
 
 ## Update
